@@ -1,0 +1,50 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clock-container {
+  background: #1e293b;
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#digital-clock {
+  font-size: 4rem;
+  color: #facc15;
+  letter-spacing: 2px;
+}
+
+
+
+
+.download-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #facc15;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #eab308;
+}
